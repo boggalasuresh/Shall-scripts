@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "please enter choise"
-echo "1.suresh \n 2.bhanu \n 3.rajesh \n 4.manoj"
+echo "1. \n 2. \n 3. \n 4."
 echo "please select any one"
 read choise 
 case $choise in
