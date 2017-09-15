@@ -1,5 +1,5 @@
 #!/bin/sh
-Echo "please the num vaule"
+echo "please the num vaule"
 read num
 sum=0
 for ((n=0;n<=$num;n++))
