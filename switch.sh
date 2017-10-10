@@ -2,7 +2,6 @@
 a=$1
 b=$2
 choise=$3
-read choise
 case $choise in 
 1)
 echo `expr $a + $b`
