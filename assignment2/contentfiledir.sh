@@ -1,6 +1,5 @@
 #!/bin/sh
-echo "enter the file/dir"
-read x
+x=$1
 if [ -f $x ]
 then
 cat $x 
