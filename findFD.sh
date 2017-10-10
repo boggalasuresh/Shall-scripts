@@ -1,5 +1,4 @@
 #!/bin/sh
-cd /sureshparlapalli
 name=$1
 if [ -f  $name ]
 then 
