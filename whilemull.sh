@@ -1,6 +1,5 @@
 #!/bin/sh
-echo "please enter n vaule"
-read n
+n=$1
 i=0
 while [ $i -le 10 ]
 do
