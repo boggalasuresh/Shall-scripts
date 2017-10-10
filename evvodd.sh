@@ -1,6 +1,5 @@
 #!/bin/sh
-echo "please enter n vaule"
-read n
+n=$1
 a=`expr $n % 2`
 echo $a
 if [ $a -eq "0" ]
