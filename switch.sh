@@ -2,7 +2,6 @@
 a=$1
 b=$2
 choise=$3
-echo "1.add \n 2.sub \n 3.mul"
 read choise
 case $choise in 
 1)
