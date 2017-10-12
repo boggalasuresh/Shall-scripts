@@ -1,11 +1,8 @@
 #!/bin/sh
-echo "please enter P vaule"
-read P
-echo "please enter R vaule"
-read R
-echo "please enter N vaulue"
-read N 
-s1=`expr $P \* $R \* $N`
+P=$1
+T=$2
+R=$3 
+s1=`expr $P \* $T \* $R`
 s2=`expr $s1 / 100`
 echo "sample insert is :Rs $s2"
 

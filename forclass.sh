@@ -1,7 +1,5 @@
 #!/bin/sh
-echo "please enter path"
-read path
-cd $path
+path=$1
 for x in *
 do
 if [ -f $x ]

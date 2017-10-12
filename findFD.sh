@@ -1,7 +1,5 @@
 #!/bin/sh
-cd /sureshparlapalli
-echo "please enter name"
-read name
+name=$1
 if [ -f  $name ]
 then 
 echo "its a file"

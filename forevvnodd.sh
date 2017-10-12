@@ -1,6 +1,5 @@
 #!/bin/sh
-echo "please enter num vaulue"
-read num
+num=$1
 for ((n=0;n<=$num;n++))
 do
 a=`expr $n % 2`

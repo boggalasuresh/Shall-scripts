@@ -1,8 +1,5 @@
 #!/bin/sh
-echo "please enter choise"
-echo "1. \n 2. \n 3. \n 4."
-echo "please select any one"
-read choise 
+choise=$1 
 case $choise in
 1)
 echo "name:suresh"

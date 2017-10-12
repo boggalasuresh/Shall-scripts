@@ -1,10 +1,7 @@
 #!/bin/sh
-echo "please enter a and b vaule"
-read a
-read b
-echo "please select choise"
-echo "1.add \n 2.sub \n 3.mul"
-read choise
+a=$1
+b=$2
+choise=$3
 case $choise in 
 1)
 echo `expr $a + $b`

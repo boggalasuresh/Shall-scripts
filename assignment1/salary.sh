@@ -1,6 +1,5 @@
 #!/bin/sh
-echo "enter the basic salary:"
-read bsal
+bsal=$1
 dp=`expr 50 \* $bsal / 100`
 echo "$dp"
 a=`expr $bsal + $dp`
